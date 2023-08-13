@@ -1,17 +1,23 @@
+// Basics OOPs concept in Dart
+
 void main() {
-  // creating the class object
-  //var a = new Student();
-  //Student();
+  var student = Student("sanyam", 234);
+  print(student.result());
 }
 
 class Student {
-  String? name;
+  // Instance variables
+  String? name; // ? is used when the variable is not initialized
   int? rollno;
 
+  // parameterized constructor
   Student(String name, int rollno) {
     this.name = name;
     this.rollno = rollno;
   }
 
-  // default constructor
+  String result() {
+    var result = "NAME IS : $name & ROLLNO IS : $rollno";
+    return result;
+  }
 }
