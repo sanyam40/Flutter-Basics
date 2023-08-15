@@ -32,4 +32,11 @@ void main() {
   String? no2 = stdin.readLineSync();
   int g = int.parse(no2!);
   print('Sum of two numbers is: ${(f + g)}');
+
+  // final & const words
+  final finall =
+      "abc"; // now value of finall can't be changed/reassign runtime chages can be done.
+  const constt = "abc"; // variable has to be declared when assigned.
+  print(finall);
+  print(constt);
 }

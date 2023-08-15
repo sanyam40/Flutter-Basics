@@ -20,4 +20,9 @@ class Student {
     var result = "NAME IS : $name & ROLLNO IS : $rollno";
     return result;
   }
+
+  @override
+  String toString() {
+    return super.toString();
+  }
 }
