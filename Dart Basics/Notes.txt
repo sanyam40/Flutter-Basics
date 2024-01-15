@@ -5,3 +5,5 @@ OOPs + functional programming
 Stically typed language.
 Type inferencing
 single threaded
+
+$ is called interploation
