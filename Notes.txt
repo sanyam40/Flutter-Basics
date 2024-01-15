@@ -1,0 +1,7 @@
+Dart is a general prgormming langugage.
+It is inspired by Java/C++/Js
+It was built in 2011 by Google.
+OOPs + functional programming
+Stically typed language.
+Type inferencing
+single threaded
