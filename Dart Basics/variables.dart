@@ -13,7 +13,7 @@ void main() {
 
   // if var is declared as String or a particular type then
   // it's data type can't be changed again.
-  var ab = "hello";
+  var ab = "hello"; // type inferencing
   print(ab.runtimeType);
   // ab = 7; // it will through error as data type of ab is string.
 }

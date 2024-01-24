@@ -19,12 +19,18 @@ void main() {
 
   // Different Data types
   String aa = "abc"; // String type
+
+  // Mulit line String
+  String multi = '''abc
+  nwfj''';
+  print(multi);
+
   int u = 9; // Integer type
   num bb = 10; // num can store a number and double
   BigInt c = BigInt.parse('67777777777'); // Big number
   bool d = true; // boolean type
   double e = 7.8; // float type
-  print("$aa + $bb + $c + $d + $e + $u");
+  print("$aa + $bb + $c + $d + $e + $u"); // interpolation
 
   print('Enter two nos.:');
   String? no1 = stdin.readLineSync();
