@@ -1,5 +1,7 @@
 /*
 
+Name : Sanyam
+RollNo : 21CSU234
 You are implementing a shopping cart feature for an e-commerce application. Design a class
 ShoppingCart to manage the items added by users. Implement methods to add items to the cart,
 remove items, calculate the total price, and apply discounts based on the quantity and type of items
