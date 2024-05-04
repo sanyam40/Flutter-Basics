@@ -8,14 +8,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // home: Center(child: Text('Heyyy Peeppss'))
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.deepOrange),
       home: Scaffold(
         appBar: AppBar(
           title: const Text('My App'),
         ),
-        // body: const Center(child: Text('Content',style: TextStyle(fontSize: 34),),),
         body: SingleChildScrollView(
           child: Container(
             padding: EdgeInsets.all(12),
@@ -36,7 +34,6 @@ class MyApp extends StatelessWidget {
                 TextField(
                   decoration: InputDecoration(labelText: 'Username:'),
                 ),
-                // SizedBox(height: 30,),
                 TextField(
                   decoration: InputDecoration(labelText: 'Password:'),
                   obscureText: true,
